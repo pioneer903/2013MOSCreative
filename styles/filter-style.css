@@ -1,0 +1,61 @@
+/* Filterable Portfolio Stylesheet */
+
+
+/* Simple Reset
+------------------------------------------------------------ */
+/* html, body,  h1, h2,  dl,ul, li, dd, dt, p { margin: 0; padding: 0; } */
+ul { list-style: none; }
+
+/* Import Fonts
+------------------------------------------------------------ */
+/* @import url(http://fonts.googleapis.com/css?family=Quattrocento); */
+
+
+/* Custom Classes
+------------------------------------------------------------ */
+.group:after { visibility: hidden; display: block; content: ""; clear: both; height: 0; }
+* html .group { zoom: 1; } /* IE6 */
+*:first-child+html .group { zoom: 1; } /* IE7 */
+
+
+/* General Styles
+------------------------------------------------------------ */
+/* body { font-size: 87.5%; line-height: 1.5em; font-family: Georgia,"Times New Roman", Times, serif; color: #222; background: url(../images/bg.png) repeat; } */
+/* background: url(../images/bg.png) repeat ;opacity: .6; */
+#wrap::before{
+content: "";
+    position: absolute;
+    top: 0; right: 0;
+    bottom: 0; left: 0;
+    background: url('../images/bg.png') repeat top center;
+    opacity: 0.5;
+    z-index: -1}
+#wrap{position: relative; }
+#project-wrap { max-width: 960px; min-height: 900px; margin: 0 auto;  overflow: hidden; text-align: center; }
+#project-wrap ul { margin: auto; padding: 0; text-align: center; width: 100%;}
+
+h1, h2 { font-weight: normal; }
+h1 { font-family: 'Quattrocento', serif; font-size: 3em; line-height: 1em; text-transform: uppercase; text-align: center; border-top: 1px solid #000; padding-top: 1em; margin-bottom: 0.33333em; }
+h2 { font-size: 1.5em; line-height: 1em; padding-bottom: 0.5em; border-bottom: 1px solid #aaa; margin-bottom: 0.5em; color: #444; }
+
+a { color: #444; text-decoration: underline; -moz-transition: 0.4s all linear; -webkit-transition: 0.4s all linear; -o-transition: 0.4s all linear; transition: 0.4s all linear; outline-color: #aaa; }
+a:hover { color: #4f0d4d; }
+
+
+/* Filter */
+dl { margin-bottom: 3em; color: #777; padding-top: 20px}
+.group { float: right; }
+dt { margin-right: 300px; font-size: 1.8em }
+dd{margin-top: -35px;padding-left: 70px;}
+.filter li { float: left; }
+.filter li:after { content: ""; }
+.filter li:last-child:after { content: ""; }
+.filter a { padding: 0 10px; color: #777; text-decoration: none; }
+.filter a:hover, .current a { color: #4f0d4d; }
+
+/* Portfolio Items */
+/* .portfolio{ width: 100%; margin: auto} */
+.portfolio li { float: left; margin: 10px 10px;  border: 1px solid #ccc; -moz-box-shadow: 0 5px 5px -3px #222; -webkit-box-shadow: 0 5px 5px -3px #222; box-shadow: 0 5px 5px -3px #222; }
+/* .portfolio li:nth-child(4n) { margin-right: 0; } */
+.portfolio a { display: block; border: 3px solid #fff;  text-decoration: none; }
+.portfolio img { width: 270px; height: 230px; display: block; border: 1px solid #ccc; }

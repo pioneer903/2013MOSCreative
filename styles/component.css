@@ -1,0 +1,134 @@
+.grid figcaption {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding-left: 20px;
+	background:  url(../images/bg.png) #e0dfdf;
+	color: #e90e3a;
+}
+
+/* Individual Caption Styles */
+
+
+/* Caption Style 4 */
+.cs-style-4 li {
+	-webkit-perspective: 1700px;
+	-moz-perspective: 1700px;
+	perspective: 1700px;
+	-webkit-perspective-origin: 0 50%;
+	-moz-perspective-origin: 0 50%;
+	perspective-origin: 0 50%;
+	padding-bottom: 5px;
+
+}
+
+.cs-style-4 figure {
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+		border: 1px red solid
+	-moz-box-shadow: 0 0 5px #ccc;
+	-webkit-box-shadow: 0 0 5px #ccc;
+	box-shadow: 0 0 5px #ccc;
+	border: solid #fff 5px;
+}
+
+.cs-style-4 figure > div {
+	overflow: hidden;
+}
+
+.cs-style-4 figure img {
+	-webkit-transition: -webkit-transform 0.4s;
+	-moz-transition: -moz-transform 0.4s;
+	transition: transform 0.4s;
+}
+
+.no-touch .cs-style-4 figure:hover img,
+.cs-style-4 figure.cs-hover img {
+	-webkit-transform: translateX(25%);
+	-moz-transform: translateX(25%);
+	-ms-transform: translateX(25%);
+	transform: translateX(25%);
+}
+
+.cs-style-4 figcaption {
+	height: 100%;
+	overflow-y: scroll;
+	line-height: 15pt;
+	width: 35%;
+	opacity: 0;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transform-origin: 0 0;
+	-moz-transform-origin: 0 0;
+	transform-origin: 0 0;
+	-webkit-transform: rotateY(-90deg);
+	-moz-transform: rotateY(-90deg);
+	transform: rotateY(-90deg);
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
+	-moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
+	transition: transform 0.4s, opacity 0.1s 0.3s;
+	/*
+background-image: url(../images/about_project_tab.png);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+*/
+}
+
+.no-touch .cs-style-4 figure:hover figcaption,
+.cs-style-4 figure.cs-hover figcaption {
+	opacity: 1;
+	-webkit-transform: rotateY(0deg);
+	-moz-transform: rotateY(0deg);
+	transform: rotateY(0deg);
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+	-moz-transition: -moz-transform 0.4s, opacity 0.1s;
+	transition: transform 0.4s, opacity 0.1s;
+	-webkit-box-shadow: 5px 0px 5px -2px #888 ;
+	  
+}
+
+.cs-style-4 figcaption a {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
+.cs-style-4 figcaption a:link{ color: #0188E6; text-decoration: none}
+ figcaption a:hover{ color: red; text-decoration: none}
+.cs-style-4 figcaption a:visited{ color: #0188E6; text-decoration: none}
+.cs-style-4 figcaption p{
+	padding-right: 10px;
+	font-family: 'NeutraText Light', sans-serif
+}
+.about_tab{
+	width: 7%;
+	height: 80%;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	-webkit-box-shadow: 4px 0px 5px -2px #888 ;
+	//max-height:80px;
+	margin-bottom:20px;
+	
+}
+.about_tab img{
+	width:100%; 
+	//height:100%; 
+	z-index:-1
+}
+
+/*
+
+.about_project_tab:hover{
+display: none}
+*/
+@media screen and (max-width: 31.5em) {
+	.grid {
+		padding: 10px 10px 100px 10px;
+	}
+	.grid li {
+		width: 100%;
+		min-width: 300px;
+	}
+}

@@ -1,0 +1,184 @@
+
+
+/************************************
+		
+		Styles for Diamonds
+		
+***************************************/
+.redGradient{
+	background: rgba(204,0,0,0.8);
+}
+.diamond{
+ /* Rotate */
+   -webkit-transform: rotate(-45deg);
+   -moz-transform: rotate(-45deg);
+   -ms-transform: rotate(-45deg);
+   -o-transform: rotate(-45deg);
+   transform: rotate(-45deg);
+}
+.colorGradientLightBlue{
+	background:  rgba(169,228,247,0.8)
+}
+
+.gradientVeryLightBlue{
+	background: rgba(169,228,247,0.33) 
+}
+
+.darkBlue{
+	background:rgba(30,87,153,1) 
+}
+
+/****************************************
+  
+			RED
+	
+***************************************/
+
+#smallRed{
+	position: absolute;
+	width: 90px;
+	height: 90px;
+	top: 160%;
+	left: 20%;
+	z-index: -38;
+}
+
+#bigRed
+{
+	z-index: -40;
+    position: absolute;
+    width: 1000px;
+    height: 1000px;
+    top: 25%;
+    left: 40%;
+}
+
+/****************************************
+  
+			SMALL LIGHT BLUE
+	
+***************************************/
+
+.smallLightBlue{
+    width: 150px;
+    height: 150px;
+    z-index: -10;
+}
+
+#smallLightBlue1{
+	position: absolute;
+ 	top: 15%;
+    left: 30%;
+   
+}    
+#smallLightBlue2{
+	position: absolute;
+ 	top: 5%;
+    left: 15%;
+}
+#smallLightBlue3{
+	position: absolute;
+ 	top: 250%;
+    left: -100%;
+} 
+#smallLightBlue4{
+	position: absolute;
+ 	top: 200%;
+    left: -200%;
+} 
+#smallLightBlue5{
+	position: absolute;
+ 	top: 50%;
+    left: -50%;
+} 
+#smallLightBlue5{
+	position: absolute;
+ 	top: -200%;
+    left: -300%;
+   
+}   
+
+
+/****************************************
+  
+			MEDIUM LIGHT BLUE
+	
+***************************************/
+
+
+.mediumLightBlue{
+	position: absolute;
+	width: 440px;
+    height: 440px;
+    z-index: -20;
+	}
+#mediumLightBlue1{
+    top: 35%;
+    left: 5%;
+}
+#mediumLightBlue2{
+    top: -50%;
+    left: -150%;
+    
+}
+#mediumLightBlue3{
+	 top: 330%;
+    right: -170%;
+}
+#mediumLightBlue4{
+    top: 25%;
+    left: -5%;
+}
+
+
+/****************************************
+  
+			LARGE LIGHT BLUE
+	
+***************************************/
+
+
+#largeLightBlue{
+	position: absolute;
+	width: 800px;
+	height: 800px;
+	top: 20%;
+	left: 30%;
+	z-index: -50;
+}
+
+
+/****************************************
+  
+			 DARK BLUE
+	
+***************************************/
+
+
+.smallDarkBlue{
+	position: absolute;
+    width: 80px;
+    height: 80px;
+    z-index: -10;
+}
+
+#smallDarkBlue1{
+ 	top: 4%;
+    left: 36%;
+   
+} 
+
+.largeDarkBlue{
+	position: absolute;
+    width: 220px;
+    height: 220px;
+    z-index: -5;
+	}
+#largeDarkBlue1{
+	top: 24%;
+    left: 24%;
+}   
+#largeDarkBlue2{
+	top: 90%;
+    left: 0%;
+} 

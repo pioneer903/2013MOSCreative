@@ -1,0 +1,214 @@
+
+
+/************************************
+		
+		Styles for Diamonds
+		
+***************************************/
+.redGradient{
+	/* Gradient Background*/
+	background: -moz-radial-gradient(center, ellipse cover, rgba(204,0,0,0.8) 0%, rgba(204,0,0,0.8) 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(204,0,0,0.8)), color-stop(100%,rgba(204,0,0,0.8))); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(204,0,0,0.8) 0%,rgba(204,0,0,0.8) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover, rgba(204,0,0,0.8) 0%,rgba(204,0,0,0.8) 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover, rgba(204,0,0,0.8) 0%,rgba(204,0,0,0.8) 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center, rgba(204,0,0,0.8) 0%,rgba(204,0,0,0.8) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cccc0000', endColorstr='#cccc0000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.diamond{
+ /* Rotate */
+   -webkit-transform: rotate(-45deg);
+   -moz-transform: rotate(-45deg);
+   -ms-transform: rotate(-45deg);
+   -o-transform: rotate(-45deg);
+   transform: rotate(-45deg);
+}
+.colorGradientLightBlue{
+	/* Gradient Color */
+	background: -moz-radial-gradient(center, ellipse cover, rgba(169,228,247,0.8) 0%, rgba(167,228,247,0.8) 1%, rgba(15,180,231,0.8) 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(169,228,247,0.8)), color-stop(1%,rgba(167,228,247,0.8)), color-stop(100%,rgba(15,180,231,0.8))); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover, rgba(169,228,247,0.8) 0%,rgba(167,228,247,0.8) 1%,rgba(15,180,231,0.8) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover, rgba(169,228,247,0.8) 0%,rgba(167,228,247,0.8) 1%,rgba(15,180,231,0.8) 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover, rgba(169,228,247,0.8) 0%,rgba(167,228,247,0.8) 1%,rgba(15,180,231,0.8) 100%); /* IE10+ */
+background: radial-gradient(ellipse at center, rgba(169,228,247,0.8) 0%,rgba(167,228,247,0.8) 1%,rgba(15,180,231,0.8) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cca9e4f7', endColorstr='#cc0fb4e7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.gradientVeryLightBlue{
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNzUlIj4KICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNhOWU0ZjciIHN0b3Atb3BhY2l0eT0iMC4zMyIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMGZiNGU3IiBzdG9wLW9wYWNpdHk9IjAuMzMiLz4KICA8L3JhZGlhbEdyYWRpZW50PgogIDxyZWN0IHg9Ii01MCIgeT0iLTUwIiB3aWR0aD0iMTAxIiBoZWlnaHQ9IjEwMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-radial-gradient(center, ellipse cover, rgba(169,228,247,0.33) 0%, rgba(15,180,231,0.33) 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(169,228,247,0.33)), color-stop(100%,rgba(15,180,231,0.33))); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover, rgba(169,228,247,0.33) 0%,rgba(15,180,231,0.33) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover, rgba(169,228,247,0.33) 0%,rgba(15,180,231,0.33) 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover, rgba(169,228,247,0.33) 0%,rgba(15,180,231,0.33) 100%); /* IE10+ */
+background: radial-gradient(ellipse at center, rgba(169,228,247,0.33) 0%,rgba(15,180,231,0.33) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54a9e4f7', endColorstr='#540fb4e7',GradientType=1 ); /* IE6-8 fallback on horizontal gradient */
+}
+
+.darkBlue{/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMWU1Nzk5IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzdkYjllOCIgc3RvcC1vcGFjaXR5PSIwLjY2Ii8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+background: -moz-linear-gradient(-45deg,  rgba(30,87,153,1) 0%, rgba(125,185,232,0.66) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(30,87,153,1)), color-stop(100%,rgba(125,185,232,0.66))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(-45deg,  rgba(30,87,153,1) 0%,rgba(125,185,232,0.66) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(-45deg,  rgba(30,87,153,1) 0%,rgba(125,185,232,0.66) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(-45deg,  rgba(30,87,153,1) 0%,rgba(125,185,232,0.66) 100%); /* IE10+ */
+background: linear-gradient(135deg,  rgba(30,87,153,1) 0%,rgba(125,185,232,0.66) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#a87db9e8',GradientType=1 ); /* IE6-8 fallback on horizontal gradient */
+}
+
+
+/****************************************
+  
+			RED
+	
+***************************************/
+
+#smallRed{
+	position: absolute;
+	width: 90px;
+	height: 90px;
+	top: 160%;
+	left: 20%;
+	z-index: -38;
+}
+
+#bigRed
+{
+	z-index: -40;
+    position: absolute;
+    width: 1000px;
+    height: 1000px;
+    top: 25%;
+    left: 40%;
+}
+
+/****************************************
+  
+			SMALL LIGHT BLUE
+	
+***************************************/
+
+.smallLightBlue{
+    width: 150px;
+    height: 150px;
+    z-index: -10;
+}
+
+#smallLightBlue1{
+	position: absolute;
+ 	top: 15%;
+    left: 30%;
+   
+}    
+#smallLightBlue2{
+	position: absolute;
+ 	top: 5%;
+    left: 15%;
+}
+#smallLightBlue3{
+	position: absolute;
+ 	top: 250%;
+    left: -100%;
+} 
+#smallLightBlue4{
+	position: absolute;
+ 	top: 200%;
+    left: -200%;
+} 
+#smallLightBlue5{
+	position: absolute;
+ 	top: 50%;
+    left: -50%;
+} 
+#smallLightBlue5{
+	position: absolute;
+ 	top: -200%;
+    left: -300%;
+   
+}   
+
+
+/****************************************
+  
+			MEDIUM LIGHT BLUE
+	
+***************************************/
+
+
+.mediumLightBlue{
+	position: absolute;
+	width: 440px;
+    height: 440px;
+    z-index: -20;
+	}
+#mediumLightBlue1{
+    top: 35%;
+    left: 5%;
+}
+#mediumLightBlue2{
+    top: -50%;
+    left: -150%;
+    
+}
+#mediumLightBlue3{
+	 top: 330%;
+    right: -170%;
+}
+#mediumLightBlue4{
+    top: 25%;
+    left: -5%;
+}
+
+
+/****************************************
+  
+			LARGE LIGHT BLUE
+	
+***************************************/
+
+
+#largeLightBlue{
+	position: absolute;
+	width: 800px;
+	height: 800px;
+	top: 20%;
+	left: 30%;
+	z-index: -50;
+}
+
+
+/****************************************
+  
+			 DARK BLUE
+	
+***************************************/
+
+
+.smallDarkBlue{
+	position: absolute;
+    width: 80px;
+    height: 80px;
+    z-index: -10;
+}
+
+#smallDarkBlue1{
+ 	top: 4%;
+    left: 36%;
+   
+} 
+
+.largeDarkBlue{
+	position: absolute;
+    width: 220px;
+    height: 220px;
+    z-index: -5;
+	}
+#largeDarkBlue1{
+	top: 24%;
+    left: 24%;
+}   
+#largeDarkBlue2{
+	top: 90%;
+    left: 0%;
+} 
